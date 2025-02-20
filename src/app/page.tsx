@@ -40,9 +40,20 @@ export default function Navbar() {
           <div className="w-30 h-20 nn">        <h1> 4 Hallmarks of Today’s Best Email Marketing Strategies</h1>
           </div>
         <p>4 MINUTE READ</p>
-        <div className="maincontent"></div>
+        <div className="maincontent">
+          <Image className="author" src="/16e808064ed94956bfb407b3391bd261.webp" alt="author" width={80} height={80}/>
+         
+
+                    <p className="authorName">By Chad S. White</p>
+                    <div className="features"> <p style={{color:'black'}} className="Date">February 6, 2025</p>
+         <div className="line"></div>
+         <p style={{color:'blue'}} className="Market">Digital Marketing</p></div>
+
         </div>
-       
+        </div>
+       <div>
+       <Link href="/" style={{color:'red'}} className="links">Link</Link>
+       </div>
     </main>
     </>
   );
