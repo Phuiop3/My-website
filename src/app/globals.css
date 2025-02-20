@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+nav {
+  display: flex;
+  width: 100%;
+  height: 66px;
+  align-items: center;
+  justify-content: space-between;
+ /* Ensure vertical alignment */
+  overflow: hidden;
+}
+
+.hi{
+  text-align: center;
+  margin-left:180px;
+}
+.ha{
+  object-fit: cover;
+  height:31px;
+  width:31px;
+}
+.hu{
+  margin-right: 10px;
+}
+.icon{
+  display:flex;
+margin-right:20px;}
+
+.Join{
+  color:aqua;
+  border:none;
+
+
+}
+.hm{
+  margin-top: 50px;
+  height:200px;
+}
+.headers {
+  margin-left: auto;
+  margin-right:auto;
+  background-image: url('/2025-5-February-Mailboxes.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 98%;
+  height: 600px;
+  border-radius: 1%;
+  margin-top: 20px;
+}
+ span{
+ display:flex;
+ color:white;
+ padding-top:100px;
+ padding-left: 140px;
+font-weight: 400;
+}
+
+h1{
+  font-size: 48px;
+  line-height: 60px;
+  margin: 12px 0 0;
+  max-height: 180px;
+  font-weight: 800;
+  overflow: hidden;
+  padding-left:140px;
+  color:#ffffff
+}
+p{
+  padding-left: 140px;
+  font-size: 11px;
+  color:white;
+  padding-top:42px;
+  font-weight: 800;
+
+}
+.maincontent{
+  border:1px solid black;
+  background-color: white;
+  width:80%;
+  height:900px;
+  margin-top: 140px;
+ margin-left: 130px;
+ margin-right: 130px; 
+ border-radius: 1%;;
+}
