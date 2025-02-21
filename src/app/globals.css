@@ -101,7 +101,10 @@ p{
  margin-left: 130px;
  margin-right: 130px; 
  border-radius: 1%;
- display:inline-flex;
+
+}
+.wrapcontent{
+  display:inline-flex;
 
 }
 .author{
@@ -120,6 +123,7 @@ p{
   align-items: center;
   margin-top:40px;
   padding-left: 12px;
+  height:fit-content;
 }
 
 
@@ -155,3 +159,57 @@ p{
   text-align: end;
 }
 
+.links{
+  margin-left: 30px;
+  color:red;
+}
+.links:hover{
+  text-decoration: underline;
+}
+.contentss{
+  padding-left: 20px;
+  padding-top: 0;
+  font-weight: 300;
+  font-size: 26px;
+  font-style: italic;
+}
+svg{
+  width:20px;
+  height:20px;
+ 
+}
+.Sharing{
+  position: absolute;
+    align-items: center;
+     display:flex;
+     left:20px;
+    flex-direction: row; /* Stack buttons vertically */
+    gap: 10px; /* Adds spacing between buttons */}
+
+.shared{
+  padding:0;
+  text-transform: uppercase;
+
+}
+
+.Saving{
+  position: absolute;
+  align-items: center;
+   display:flex;
+   left:20px;
+  flex-direction: row; /* Stack buttons vertically */
+  gap: 10px; /* Adds spacing between buttons */margin-top:30px;
+  padding:0;
+}
+
+  .saved{
+    padding:0;
+    text-transform: uppercase;
+  }
+  .buttons{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    top:0;
+    margin-bottom:10px;
+  }

@@ -41,19 +41,32 @@ export default function Navbar() {
           </div>
         <p>4 MINUTE READ</p>
         <div className="maincontent">
-          <Image className="author" src="/16e808064ed94956bfb407b3391bd261.webp" alt="author" width={80} height={80}/>
+          <div className="wrapcontent">
+            <Image className="author" src="/16e808064ed94956bfb407b3391bd261.webp" alt="author" width={80} height={80}/>
+
+
+<p className="authorName">By Chad S. White</p>
+<div className="features"> <p style={{color:'black'}} className="Date">February 6, 2025</p>
+<div className="line"></div>
+<p style={{color:'blue'}} className="Market">Digital Marketing</p></div>
+</div>
+          <div className="links"><Link href="/">hi</Link></div>
+          <div className="buttons"> <div className="Sharing">      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M307 34.8c-11.5 5.1-19 16.6-19 29.2l0 64-112 0C78.8 128 0 206.8 0 304C0 417.3 81.5 467.9 100.2 478.1c2.5 1.4 5.3 1.9 8.1 1.9c10.9 0 19.7-8.9 19.7-19.7c0-7.5-4.3-14.4-9.8-19.5C108.8 431.9 96 414.4 96 384c0-53 43-96 96-96l96 0 0 64c0 12.6 7.4 24.1 19 29.2s25 3 34.4-5.4l160-144c6.7-6.1 10.6-14.7 10.6-23.8s-3.8-17.7-10.6-23.8l-160-144c-9.4-8.5-22.9-10.6-34.4-5.4z"/></svg>  
+          <p className="shared" style={{color:'black'}}>Share</p>
+          </div>
+          <div className="Saving">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M0 48V487.7C0 501.1 10.9 512 24.3 512c5 0 9.9-1.5 14-4.4L192 400 345.7 507.6c4.1 2.9 9 4.4 14 4.4c13.4 0 24.3-10.9 24.3-24.3V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48z"/></svg>
+          <p className="saved" style={{color:'black'}}>Save</p>
+
+          </div></div>
+          <p className="contentss" style={{color:'black'}}>Less personalization in your email marketing strategy? You heard that right.
+          </p>
          
-
-                    <p className="authorName">By Chad S. White</p>
-                    <div className="features"> <p style={{color:'black'}} className="Date">February 6, 2025</p>
-         <div className="line"></div>
-         <p style={{color:'blue'}} className="Market">Digital Marketing</p></div>
-
+         
         </div>
-        </div>
-       <div>
-       <Link href="/" style={{color:'red'}} className="links">Link</Link>
+       
        </div>
+       
     </main>
     </>
   );
