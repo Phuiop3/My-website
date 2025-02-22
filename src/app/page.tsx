@@ -61,20 +61,69 @@ export default function Navbar() {
           </div></div>
           <p className="contentss" style={{color:'black'}}>Less personalization in your email marketing strategy? You heard that right.
           </p>
-         <p style={{color:'black'}}>The Gist</p>
+         <p style={{color:'black'}} className="Gist">The Gist</p>
          <ul>
           
-          <li>Optimizing campaign frequency. Adjust email frequency based on engagement. Send fewer emails to less-engaged subscribers while increasing opportunities for highly-engaged ones.</li>
+          <li><strong>Optimizing campaign frequency.</strong> Adjust email frequency based on engagement. Send fewer emails to less-engaged subscribers while increasing opportunities for highly-engaged ones.</li>
           <li>
-         Increasing revenue with automation. Automate key lifecycle moments. High-performing campaigns like cart abandonment and welcome emails drive the majority of email marketing revenue.
+        <strong>Increasing revenue with automation.</strong>  Automate key lifecycle moments. High-performing campaigns like cart abandonment and welcome emails drive the majority of email marketing revenue.
          </li>
-          <li>Personalization pitfalls. Less can be more. Overpersonalization diminishes brand voice, so dial back on variations to maintain a unified experience.</li>
+          <li><strong>Personalization pitfalls. Less can be more.</strong> Overpersonalization diminishes brand voice, so dial back on variations to maintain a unified experience.</li>
 
          </ul>
-         
+         <p style={{color:'black'}} className="success">Succeeding at email marketing requires constant iteration and evolution with an eye on gradual improvements. This iteration happens in an environment of continual change, with some of those changes requiring adaptation and some merely presenting distractions.</p>
 
-        </div>
-       
+         <div className="label"></div>
+        <p style={{color:'black'}} className="success">Experienced email marketers know that a good email marketing program has an active mailable list size that’s growing and contributes positively to their business’s success metrics, with good open and click rates just being table stakes. A good program also has a spam complaint rate of under 0.1% (which is what Google and Yahoo expect) and an inbox placement rate of 95% or better.</p>
+        <p style={{color:'black'}} className="success" >Those characteristics are hallmarks of a good email marketing strategy. But what about the hallmarks of the best ones? Here are four key characteristics.</p>
+        <p style={{color:'black'}} className="Table">Table Of Contents</p>
+
+        <ul>
+          
+          <li><Link href="/">Streamlining Email Frequency to Maximize Revenue</Link></li>
+          <li>
+        <Link href="/">Use Automation to Drive Email Marketing Revenue</Link>
+         </li>
+          <li>
+          <Link href="/">Reducing Personalization for Stronger Brand Voice</Link>
+          </li>
+          <li>
+          <Link href="/">Maintaining or Increasing Email Marketing Budget</Link>
+          </li>
+          <li>
+          <Link href="/">Core Questions Around Email Marketing Strategy</Link>
+
+          </li>
+         </ul>   
+         <p className="heading">Streamlining Email Frequency to Maximize Revenue</p>  
+         <p style={{color:'black'}} className="success">Since I entered the email marketing industry nearly 20 years ago, email frequencies have steadily increased, and they’ve paused only briefly in the wake of the introduction of Mail Privacy Protection. The relentless drumbeat of a “more email equals more money” strategy has led us to this point, where many brands are seeing declining engagement rates and increasingly frustrated subscribers, which threatens program health.</p>
+<p style={{color:'black'}} className="success">Because of that, elite programs are reassessing which subscribers receive which campaigns. They’re sending fewer campaigns to their less engaged subscribers and more campaigns to their more engaged subscribers.</p>
+<p style={{color:'black'}} className="success">Because of that, elite programs are reassessing which subscribers receive which campaigns. They’re sending fewer campaigns to their less engaged subscribers and more campaigns to their more engaged subscribers.</p> 
+<div className="label"></div>
+<p style={{color:'black'}} className="success"><strong>Related Article:</strong> <Link className="Factor" href="/">7 Factors That Determine Email Deliverability</Link></p>
+<p className="heading">Use Automation to Drive Email Marketing Revenue</p>  
+<p style={{color:'black'}} className="success">Welcomes, cart abandonment and other automated campaigns are the most productive emails teams can send. Their return on investment far exceeds run-of-the-mill broadcast promotional campaigns.</p>
+<p style={{color:'black'}} className="success">It’s that outsized productivity that allows roughly 15% of brands to generate the majority of their email marketing revenue from their automated campaigns, which typically represent less than 5% of their overall email volume. Through the steady launch, maintenance and optimization of automations over years, they’ve been able to automatically address key moments and points of friction in their customers’ lifecycles.</p>           
+<p style={{color:'black'}} className="success">It’s that outsized productivity that allows roughly 15% of brands to generate the majority of their email marketing revenue from their automated campaigns, which typically represent less than 5% of their overall email volume. Through the steady launch, maintenance and optimization of automations over years, they’ve been able to automatically address key moments and points of friction in their customers’ lifecycles.</p>           
+ <p className="heading">Reducing Personalization for Stronger Brand Voice</p>    
+ <p style={{color:'black'}} className="success">That’s not a typo. I do mean reducing, not increasing. That’s because the best programs have already overdone personalization, and, yes, that is a danger. They’ve realized that in their email marketing strategy, they’d squeezed out brand messaging, diminished their brand voice and undermined their ability to create common brand experiences. So, they’ve started to dial back on personalization a bit</p>
+           <div className="Search">
+            <p className="headings">Join the Leading Community of Customer Experience Professionals</p>
+            <input type="email" placeholder="Enter work email"></input>
+           <button className="community">Join the Community</button>
+           <p style={{color:'black'}} className="submit" >By submitting this form you are consenting to our privacy policy and to being contacted by SMG/CMSWire.
+
+</p>
+          </div>
+          <p style={{color:'black'}} className="success">Last year, the brands that bragged about sending out more than 100,000 variations of email campaigns will most likely be the ones to realize they overdid it to the detriment of their brand and throttle back this year.</p>
+          <p style={{color:'black'}} className="success"><strong>Related Article:</strong><Link className="Factor" href="/">The Hidden Dangers of Over-Personalization in Marketing</Link></p> 
+          <p className="heading">Maintaining or Increasing Email Marketing Budget          </p>    
+          <p style={{color:'black'}} className="success">A bizarre thing is happening. During 2024, many brands deprioritized high-ROI marketing channels and shifted budget to lower-ROI advertising channels, according to Gartner’s 2024 CMO Spend Survey</p>
+          <p style={{color:'black'}} className="success">“In these tough times, CMOs are prioritizing investments that have demonstrable impact,” said Ewan McIntyre, VP analyst and chief of research for Gartner for Marketers. “However, there’s a mismatch between the channels CMOs are investing in and their perceived impact.”</p>
+          <p style={{color:'black'}} className="success">Given instability among social networks and increasing privacy protections, there have never been more reasons to invest in building larger first-party audiences and gaining more first-party data. The best email marketing strategy recognizes this imperative and continues to invest in strong subscriber relationships and retention programs.</p>
+
+           </div>
+
        </div>
        
     </main>
