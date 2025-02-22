@@ -61,8 +61,18 @@ export default function Navbar() {
           </div></div>
           <p className="contentss" style={{color:'black'}}>Less personalization in your email marketing strategy? You heard that right.
           </p>
+         <p style={{color:'black'}}>The Gist</p>
+         <ul>
+          
+          <li>Optimizing campaign frequency. Adjust email frequency based on engagement. Send fewer emails to less-engaged subscribers while increasing opportunities for highly-engaged ones.</li>
+          <li>
+         Increasing revenue with automation. Automate key lifecycle moments. High-performing campaigns like cart abandonment and welcome emails drive the majority of email marketing revenue.
+         </li>
+          <li>Personalization pitfalls. Less can be more. Overpersonalization diminishes brand voice, so dial back on variations to maintain a unified experience.</li>
+
+         </ul>
          
-         
+
         </div>
        
        </div>
