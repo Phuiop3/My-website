@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import Script from "next/script";
 
 export default function Navbar() {
 
@@ -209,8 +210,29 @@ export default function Navbar() {
             <p style={{color:'black'}} className="success" >Write the EOY Checks: 6 Smart Ways to Spend Unused Marketing Budget</p>
           </div>
           </div>
-           </div>
+       
+          <Script
+        async
+        strategy="afterInteractive"
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6505361285926013"
+        crossOrigin="anonymous"
+      />
+      
+      {/* Ad Placement */}
+      <ins
+        className="adsbygoogle"
+        style={{ display: "block" }}
+        data-ad-client="ca-pub-6505361285926013"
+        data-ad-slot="5349870928"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
 
+      {/* Initialize AdSense */}
+      <Script id="adsbygoogle-init" strategy="afterInteractive">
+        {`(adsbygoogle = window.adsbygoogle || []).push({});`}
+      </Script>
+      </div>
        </div>
        
     </main>
