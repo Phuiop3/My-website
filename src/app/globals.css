@@ -451,3 +451,41 @@ input[type=email]:focus{
     transform: none;
     border-radius: 0
 }
+.move{
+  color:#05b3ff;
+  font-size: 38px !important;
+  font-weight: 800 !important;
+   padding:0;
+   text-align: center;
+}
+.carousel-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.carousel-controls__dot {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: #bbb; /* Default inactive dot color */
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.carousel-controls__dot:hover {
+  background-color: #888;
+}
+
+.carousel-controls__dot__active {
+  background-color: #007bff; /* Active dot color */
+}
+
+.about{
+  display:flex;
+  flex-direction: row;
+  padding:0;
+  width:fit-content;
+}

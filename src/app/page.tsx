@@ -121,6 +121,39 @@ export default function Navbar() {
           <p style={{color:'black'}} className="success">A bizarre thing is happening. During 2024, many brands deprioritized high-ROI marketing channels and shifted budget to lower-ROI advertising channels, according to Gartner’s 2024 CMO Spend Survey</p>
           <p style={{color:'black'}} className="success">“In these tough times, CMOs are prioritizing investments that have demonstrable impact,” said Ewan McIntyre, VP analyst and chief of research for Gartner for Marketers. “However, there’s a mismatch between the channels CMOs are investing in and their perceived impact.”</p>
           <p style={{color:'black'}} className="success">Given instability among social networks and increasing privacy protections, there have never been more reasons to invest in building larger first-party audiences and gaining more first-party data. The best email marketing strategy recognizes this imperative and continues to invest in strong subscriber relationships and retention programs.</p>
+          <p className="move">Learning Opportunities</p>
+          <div id="carouselExample" className="carousel slide" data-bs-ride="carousel">
+            <div className="carousel-inner">
+                <div className="carousel-item active">
+                    <img src="/logo.png" className="d-block w-100" alt="Image 1" />
+                </div>
+                <div className="carousel-item">
+                    <img src="/menu-512.webp" className="d-block w-100" alt="Image 2" />
+                </div>
+                <div className="carousel-item">
+                    <img src="/download.jpeg" className="d-block w-100" alt="Image 3" />
+                </div>
+            </div>
+            <div className="carousel-controls"><button className="carousel-controls__dot"></button><button className="carousel-controls__dot"></button><button className="carousel-controls__dot carousel-controls__dot__active"></button></div>
+          
+        </div>
+        <p style={{color:'black'}} className="success">Looked at this collectively, the first two hallmarks focus on delivering more campaigns to your most engaged subscribers and best customers, while minimizing fatigue for less engaged ones. The last two hallmarks, on the other hand, are centered around preserving your brand.</p>
+          <p style={{color:'black'}} className="success">Where is your organization on its journey toward achieving each of these goals?</p>
+          <p className="headings">           Core Questions Around Email Marketing Strategy          </p>
+          <p style={{color:'black'}} className="success">Editor&apos;s note: Here are two important questions to ask about email marketing strategy.</p>
+          <p className="headings">        What are the best ways to increase email marketing revenue without sending more emails?        </p>
+          <p style={{color:'black'}} className="success">
+          The key is to target more engaged subscribers with tailored campaigns. Brands should segment their lists to send fewer emails to less engaged subscribers while sending more frequent and relevant emails to their best customers. By doing so, they can improve engagement rates, reduce opt-outs and increase revenue. A strong email marketing strategy focused on segmentation and smart targeting is crucial for maximizing ROI.
+          </p>
+          <p className="headings">How can automation impact email marketing revenue?
+          </p>
+          <p style={{color:'black'}} className="success">Brands that focus on automated campaigns like cart abandonment, welcome emails and re-engagement emails often see higher returns on investment. These types of emails can drive a lot of revenue, even though they may account for less than 5% of total email volume. Implementing an effective email marketing strategy with automated workflows allows brands to address key moments in the customer lifecycle, and it reduces manual effort while increasing revenue generation.</p>
+          <p style={{color:'black'}} className="success">fa-solid fa-hand-paper Learn how you can<Link className="Factor" href="/">join our contributor community.</Link></p> 
+          <p className="heading">About the Author          </p>  
+          <div className="about">
+          <Image className="authorss" src="/16e808064ed94956bfb407b3391bd261.webp" alt="author" width={40} height={40}/>
+          <p style={{color:'black'}} className="success" >Chad S. White is the author of four editions of Email Marketing Rules and Head of Research for Oracle Digital Experience Agency, a global full-service digital marketing agency inside of Oracle. Connect with Chad S. White: fa-brands fa-x-twitter fa-brands fa-linkedin</p>
+          </div>
 
            </div>
 
