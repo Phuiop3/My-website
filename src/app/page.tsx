@@ -151,10 +151,64 @@ export default function Navbar() {
           <p style={{color:'black'}} className="success">fa-solid fa-hand-paper Learn how you can<Link className="Factor" href="/">join our contributor community.</Link></p> 
           <p className="heading">About the Author          </p>  
           <div className="about">
-          <Image className="authorss" src="/16e808064ed94956bfb407b3391bd261.webp" alt="author" width={40} height={40}/>
+          <Image className="author" src="/16e808064ed94956bfb407b3391bd261.webp" alt="author" width={40} height={40}/>
           <p style={{color:'black'}} className="success" >Chad S. White is the author of four editions of Email Marketing Rules and Head of Research for Oracle Digital Experience Agency, a global full-service digital marketing agency inside of Oracle. Connect with Chad S. White: fa-brands fa-x-twitter fa-brands fa-linkedin</p>
           </div>
+          <p className="Main" style={{color:'black'}}><strong>Main image: </strong><Link href="/" className="name" >Kristina Tripkovic</Link></p>
+          <span style={{color:'black'}} className="tags">Tags</span>
+          <div className="tagggs">
+            <Link href="/" className="same">email</Link>
+            <Link href="/" className="same">email</Link>
+            <Link href="/" className="same">email</Link>
+            <Link href="/" className="same">email</Link>
+            <Link href="/" className="same">email</Link>
+            <Link href="/" className="same">email</Link>
 
+          </div>
+          <div className="label"></div>
+          <p className="moves">Featured Research</p>
+
+          <div id="carouselExample" className="carousel slide" data-bs-ride="carousel">
+            <div className="carousel-inner">
+                <div className="carousel-item active">
+                    <img src="/logo.png" className="d-block w-100" alt="Image 1" />
+                </div>
+                <div className="carousel-item">
+                    <img src="/menu-512.webp" className="d-block w-100" alt="Image 2" />
+                </div>
+                <div className="carousel-item">
+                    <img src="/download.jpeg" className="d-block w-100" alt="Image 3" />
+                </div>
+            </div>
+            <div className="carousel-controls"><button className="carousel-controls__dot"></button><button className="carousel-controls__dot"></button><button className="carousel-controls__dot carousel-controls__dot__active"></button></div>
+        </div>
+        <button className="All"> View All Research</button>
+        <p style={{color:'black'}} className="tagss">Most Read Today</p>
+        
+          <div className="Readings"> <div className='Reading'>
+            <p className="edit"style={{color:'#FFFFFF'}}>EDITORIAL</p>
+            <Image src="/d95ccb3d3e0441b4b68ec98c514e6e16.webp" alt="1" className="read1" width={400} height={200}></Image>
+            <p style={{color:'black'}} className="success" >DIGITAL MARKETING </p>
+
+            <p style={{color:'black'}} className="success" >The Art of Balancing Data and Creativity: Building Brands That Connect</p>
+          </div>
+          <div className='Reading'>
+          <p className="edit"style={{color:'#FFFFFF'}}>EDITORIAL</p>
+
+            <Image src="/2025-30-January-Chair-Window.jpg" alt="1"  className="read1" width={400} height={200}></Image>
+            <p style={{color:'black'}} className="success" >DIGITAL MARKETING </p>
+
+            <p style={{color:'black'}} className="success" >Congrats, Marketing Operations: You&apos;ve Won Your Executive Seat</p>
+          </div>
+          <div className='Reading'>
+          <p className="edit"style={{color:'#FFFFFF'}}>EDITORIAL</p>
+
+            <Image src="/2025-21-January-Money-Map.jpg" alt="1"  className="read1" width={400} height={200}></Image>
+            <p style={{color:'black'}} className="success" >DIGITAL MARKETING </p>
+
+            <p style={{color:'black'}} className="success" >Write the EOY Checks: 6 Smart Ways to Spend Unused Marketing Budget</p>
+          </div>
+          </div>
            </div>
 
        </div>
